@@ -14,7 +14,14 @@ router.post('/',(req, res, next) => {
 });
 
 router.get('/:productId',(req, res, next) =>{
-
+    const id =req.params.productId;
+    if(id == 'special'){
+        res.status(200).json({
+            message: 'You discoverd the special ID'
+        });
+    } else{
+        
+    }
 });
 
 router.get()
