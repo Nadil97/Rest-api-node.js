@@ -13,6 +13,10 @@ router.post('/',(req, res, next) => {
     });
 });
 
+router.get('/:productId',(req, res, next) =>{
+
+});
+
 router.get()
 
 module.exports =router;
